@@ -1,0 +1,30 @@
+Student ID: s28785
+
+Original List: [5, 2, 20, 1, 9, 10]
+Original Tuple: (5, 2, 8, 1, 9)
+Original Set: {1, 2, 5, 8, 9}
+Original Dictionary: {5: 25, 2: 4, 1: 1, 9: 81, 11: 121}
+
+Modified List: [5, 2, 20, 1, 9, 10]
+Attempted Tuple Modification: Tuples are immutable.
+Set Operations:
+- Union: {1, 2, 5, 8, 9, 10, 11, 12}
+- Intersection: set()
+- Difference: {1, 2, 5, 8, 9}
+Updated Dictionary: {5: 25, 2: 4, 1: 1, 9: 81, 11: 121}
+
+Type Conversions:
+- List to Tuple: (5, 2, 20, 1, 9, 10)
+- List to Set: {1, 2, 5, 9, 10, 20}
+- List to Dictionary: {5: 25, 2: 4, 20: 400, 1: 1, 9: 81, 10: 100}
+- Tuple to List: [5, 2, 8, 1, 9]
+- Tuple to Set: {1, 2, 5, 8, 9}
+- Tuple to Dictionary: {5: 5, 2: 2, 8: 8, 1: 1, 9: 9}
+- Set to List: [1, 2, 5, 8, 9]
+- Set to Tuple: (1, 2, 5, 8, 9)
+- Set to Dictionary: {1: 1, 2: 4, 5: 25, 8: 64, 9: 81}
+- Dictionary to List: [5, 2, 1, 9, 11]
+- Dictionary to Tuple: (5, 2, 1, 9, 11)
+- Dictionary to Set: {1, 2, 5, 9, 11}
+
+Appendix: This line was added after initial write.
