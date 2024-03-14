@@ -76,9 +76,11 @@ input_numbers = input("Enter a series of space-separated integers: ")
 
 # Convert Input:
 
+numbers_list = list(map(int, input_numbers.split()))
+sorted_tuple = tuple(sorted(numbers_list))
 
 # Sorting:
-
+numbers_list.sort()
 
 # Print Output
 print("Sorted list:", numbers_list)
